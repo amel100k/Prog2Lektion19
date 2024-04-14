@@ -1,4 +1,4 @@
-package examples.ducks.models;
+package examples.ducks.models.flybehaviors;
 
 public interface FlyBehavior {
     void fly();

@@ -8,13 +8,13 @@ public class Main {
     public static void main(String[] args) {
 
         MallardDuck mallard = new MallardDuck();
-        mallard.quack();
-        mallard.fly();
+        mallard.performQuack();
+        mallard.performFly();
         RedheadDuck redhead = new RedheadDuck();
-        redhead.quack();
-        redhead.fly();
+        redhead.performQuack();
+        redhead.performFly();
         RubberDuck rubber = new RubberDuck();
-        rubber.quack();
-        rubber.fly();
+        rubber.performQuack();
+        rubber.performFly();
     }
 }
